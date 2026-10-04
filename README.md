@@ -16,6 +16,12 @@ https://yourname.github.io/repo-c/          <- Level / Mechanic C
 
 ---
 
+<p align="center">
+  <a href="https://youtu.be/uYo3BSY4uXY">
+    <img src="https://raw.githubusercontent.com/EricEisaman/mission-headquarters/main/assets/images/obc.webp" alt="Watch the video" width="20%">
+  </a>
+</p>
+
 ## Why This Architecture?
 
 Most portfolio / open-source projects die as islands. This pattern makes them **symbiotic**:
