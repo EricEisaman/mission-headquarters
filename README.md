@@ -12,7 +12,7 @@ https://yourname.github.io/repo-b/          <- Level / Mechanic B
 https://yourname.github.io/repo-c/          <- Level / Mechanic C
 ```
 
-[Architecture Overview](./images/01-architecture-overview.webp)
+![Architecture Overview](https://raw.githubusercontent.com/EricEisaman/mission-headquarters/main/assets/images/01-architecture-overview.webp)
 
 ---
 
@@ -43,7 +43,7 @@ HTML, CSS, SVG, JSON, PNG, WASM — if it can be a Blob, it can be a shared miss
 
 This is the heart of the design. A mission is pure data. The engine is generic.
 
-[Mission JSON Blueprint](./images/02-mission-json-blueprint.webp)
+![Mission JSON Blueprint](https://raw.githubusercontent.com/EricEisaman/mission-headquarters/main/assets/images/02-mission-json-blueprint.webp)
 
 ```jsonc
 {
@@ -179,7 +179,7 @@ This is the heart of the design. A mission is pure data. The engine is generic.
 
 All Pages under `https://yourname.github.io/*` share the **same origin**, so they share the same IndexedDB. We formalize it.
 
-[IndexedDB Core Internals](./images/03-indexeddb-core-internals.webp)
+![IndexedDB Core Internals](https://raw.githubusercontent.com/EricEisaman/mission-headquarters/main/assets/images/03-indexeddb-core-internals.webp)
 
 ### DB Naming Convention
 
@@ -245,7 +245,7 @@ mhq.on('stage:unlocked', ({ stage }) => showPortalTo(stage.unlocks[0]));
 
 ## Player Lifecycle
 
-[Player Journey](./images/04-player-journey.webp)
+![Player Journey](https://raw.githubusercontent.com/EricEisaman/mission-headquarters/main/assets/images/04-player-journey.webp)
 
 ```
 1. Land on HQ -> MissionBridge creates/opens DB, caches mission.json + eager assets
